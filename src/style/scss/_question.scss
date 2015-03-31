@@ -1,0 +1,25 @@
+.iapp-panel {
+    text-align: center;
+}
+
+.iapp-arrow-wrap {
+    width: 100px;
+    img {
+        width: 100%;
+    }
+}
+
+.yes-wrap {
+    position: absolute;
+    left: 0;
+}
+
+.no-wrap {
+    position: absolute;
+    right: 10px;
+    .arrow-wrap {
+        img {
+            display: block;
+        }
+    }
+}

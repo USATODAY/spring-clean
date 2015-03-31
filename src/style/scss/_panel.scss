@@ -1,0 +1,27 @@
+@mixin panel(){
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  top: 0;
+  transition: transform 500ms ease;
+  width: 100%;
+}
+
+.done {
+  transform: translate(0, -100%);
+}
+
+.upcoming {
+  transform: translate(0, 100%);
+}
+
+.active {
+  transform: translate(0, 0);
+}
+
+.iapp-panel {
+    @include panel();
+}
+

@@ -1,0 +1,39 @@
+$border-size: 3px;
+
+.iapp-button {
+  background: white;
+  border-radius: 50%;
+  border: solid $border-size $green;
+  // @include BoxShadowHelper(4);
+  box-shadow: 6px 6px rgba(35, 31, 32, 0.2);
+  color: $green;
+  height: 80px;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 250ms ease;
+  width: 80px;
+  z-index: 99;
+  &:hover {
+    // @include BoxShadowHelper(5)
+  }
+}
+
+.iapp-button-blue {
+    background: $blue;
+    color: white;
+}
+
+.iapp-button-green {
+    background: $green;
+    border: solid $border-size white;
+    color: white;
+}
+
+.iapp-button-text {
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+

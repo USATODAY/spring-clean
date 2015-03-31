@@ -1,0 +1,15 @@
+.iapp-wrap {
+    margin: 0 auto;
+    max-width: 600px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.iapp-img-wrap {
+    margin: 1em auto;
+    max-width: 300px;
+    img {
+        width: 100%;
+    }
+}
