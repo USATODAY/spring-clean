@@ -3,6 +3,7 @@
     max-width: 600px;
     height: 100%;
     overflow: hidden;
+    padding: 0 1em;
     position: relative;
 }
 
@@ -12,4 +13,38 @@
     img {
         width: 100%;
     }
+
+    &.small {
+        max-width: 150px;
+        @media (max-width: 600px) {
+            margin: 0 auto;
+            width: 100px;
+        }
+    }
+}
+
+.iapp-begin-button {
+    margin: 0 auto;
+}
+
+#overlay {
+    height: calc(100% - 40px)
+}
+
+article.asset, article {
+    background: white;
+    height: 100%;
+    width: 100%;
+}
+
+.transition-wrap {
+    height: 100%;
+}
+
+section.contents {
+    height: 100%;
+}
+
+.non-article-content {
+    height: 100%;
 }

@@ -23,5 +23,6 @@
 
 .iapp-panel {
     @include panel();
+    padding-bottom: 2em;
 }
 

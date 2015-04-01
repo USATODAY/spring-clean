@@ -17,10 +17,14 @@ html {
 }
 
 body {
-  background-color: $extra-light-grey;
+  background-color: white;
   color: $dark-grey;
   font-family: "Futura Today", Arial,sans-serif;
   height: 100%;
+}
+
+article {
+    background-color: white;
 }
 
 .page-wrap {

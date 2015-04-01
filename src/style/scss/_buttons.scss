@@ -7,11 +7,11 @@ $border-size: 3px;
   // @include BoxShadowHelper(4);
   box-shadow: 6px 6px rgba(35, 31, 32, 0.2);
   color: $green;
-  height: 80px;
+  height: 70px;
   position: relative;
   text-transform: uppercase;
   transition: all 250ms ease;
-  width: 80px;
+  width: 70px;
   z-index: 99;
   &:hover {
     // @include BoxShadowHelper(5)
